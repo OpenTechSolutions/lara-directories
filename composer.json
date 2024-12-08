@@ -1,0 +1,23 @@
+{
+    "name": "opentech/directories",
+    "description": "A package to override the default folder structure of a laravel project",
+    "require": {
+        "php": "^8.2",
+        "laravel/laravel": "^11.3",
+        "livewire/livewire": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Opentech\\Directories\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ron Darby",
+            "email": "ron@opentechsolutions.co.za"
+        }
+    ]
+}
