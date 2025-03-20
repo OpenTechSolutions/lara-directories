@@ -1,4 +1,4 @@
-# Laravel Directories Package
+# Lara Directories Package
 
 **!!!! This is experimental and comes with some caveats !!!!**<br>
 The Laravel Directories package, `opentech/directories`, aims to provide a more flexible and organized directory structure for Laravel applications. By modifying the default Laravel configuration, you can break out of the default folder structure and separate your infrastructure, application, and domain logic.
@@ -55,7 +55,7 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 ## License
 
-The Laravel Directories package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Lara Directories package is open-sourced software licensed under the GNU General Public License v3.0.
 
 ## Credits
 
