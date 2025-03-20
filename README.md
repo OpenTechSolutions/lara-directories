@@ -3,6 +3,22 @@
 **!!!! This is experimental and comes with some caveats !!!!**<br>
 The Laravel Directories package, `opentech/directories`, aims to provide a more flexible and organized directory structure for Laravel applications. By modifying the default Laravel configuration, you can break out of the default folder structure and separate your infrastructure, application, and domain logic.
 
+```markdown
+app/
+├── Infrastructure/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Routes/
+│   ├── Models/
+│   ├── Providers/
+│   ├── View/
+│   │   ├── Components/
+│   │   └── Templates/
+│   
+└── Domain/
+└── Application/
+```
+
 ## Installation
 
 1. Install the package using Composer:
