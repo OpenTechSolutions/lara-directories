@@ -1,7 +1,7 @@
 {
     "name": "opentech/directories",
     "description": "A package to override the default folder structure of a laravel project",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "license": "GPL-3.0-or-later",
     "require": {
         "php": "^8.2",

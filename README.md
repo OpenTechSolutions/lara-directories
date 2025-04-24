@@ -1,3 +1,30 @@
+24/04/2025
+
+# You don't need to do this!!!!!!
+This was an experiment, but you don't need to do this!!!
+
+A simpler way is to just modify the `bootstrap/app.php` file and your `composer.json` file
+
+Simply add `...... create()->useAppPath(__DIR__.'/../app/Infrastructure);`
+
+Move all folders from `/app` into `app/Infrastruction` and then add other namespaces and modify namespace as you like in your psr-4 section of your composer.json file
+
+```json
+"autoload": {
+        "psr-4": {
+            "Infrastructure\\": "app/Infrastructure/",
+            "Domain\\": "app/Domain/",
+            "Application\\": "app/Application/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+```
+Still has some caveats with 3rd party packages that may hard code namespaces to Models and such, but there are ways around that too if you get creative by extending those files and binding your class over theirs, but they few and far between.
+
+I like this structure, it mimics close to Hexagonal (ports and adapters) architecture pattern
+
+
 # Lara Directories Package
 
 **!!!! This is experimental and comes with some caveats !!!!**<br>
